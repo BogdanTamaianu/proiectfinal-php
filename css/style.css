@@ -1,0 +1,70 @@
+#banner {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+#meniu ul {
+  list-style-type: none;
+  height: 50px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: bisque;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+#meniu li {
+  list-style-type: none;
+  height: 50px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: bisque;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+#meniu li:last-child {
+ border-bottom: none;
+ border-radius: 5px;
+}
+
+#meniu li a.active {
+background-color: #4CAF50;
+color: white;
+border-radius: 5px;
+}
+
+#meniu li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  border-radius: 5px;
+}
+
+#continut {
+  width: 300px;
+  text-align: center;
+  background-color: darkturquoise;
+  border: 1px solid #555;  
+}
+
+#footer {
+  position: fixed;
+  padding: 30px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: aquamarine;
+   color: white;
+   text-align: center;
+   }
+
